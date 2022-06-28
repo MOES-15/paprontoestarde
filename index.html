@@ -9,9 +9,9 @@
     <lint rel="shortcut icon" href="assets/media/icons/nave.svg" />
 </head>
 <body class="relative h-[7400px] bg-[#3A434D] grid grid-rows-3">
-    <div class="bg-[#3A434D] w-screen h-screen z-50 fixed top-0 flex justify-center items-center" style="opacity:1" id="loader">
+   <!--  <div class="bg-[#3A434D] w-screen h-screen z-50 fixed top-0 flex justify-center items-center" style="opacity:1" id="loader">
         <img src="assets/media/icons/icono-loading.svg" alt="" class="w-[200px] mb-10">
-    </div>
+    </div> -->
 
     <!-- Moon -->
     <div class="-z-50">
@@ -20,20 +20,19 @@
     <img src="assets/media/icons/moon.svg" alt="" class="absolute top-20 right-0 w-2/6">
 
     <!-- Nave -->
-    <div class="fixed right-5 bottom-32 h-4/6 w-1/2">
+    <div class="fixed md:right-5 right-0 bottom-32 h-4/6 md:w-1/2 w-32">
         <div class="h-full relative">
-            <img src="assets/media/icons/nave.svg" alt="" class="w-40 absolute right-10 transition-all duration-100 rotate-[16deg] drop-shadow-xl" style="top: 60%;" id="nave">
+            <img src="assets/media/icons/nave.svg" alt="" class="md:w-40 w-20 absolute md:right-10 right-0 transition-all duration-100 rotate-[16deg] drop-shadow-xl" style="top: 60%;" id="nave">
         </div>
     </div>
 
     <!-- Header -->
-    <div class="h-32 flex justify-between items-center px-14 fixed top-0 w-full z-40">
-        <div class="text-white mt-10">
-            <img src="assets/media/icons/logo-oscuro-verde.svg" alt="" class="w-[150px] transition-all duration-300" id="logo-dark">
-            <img src="assets/media/icons/logo-claro-verde.svg" alt="" class="w-[150px] transition-all duration-300"  id="logo-light">
+    <div class="h-32 flex justify-between items-center md:px-14 px-5 fixed top-0 w-full z-40">
+        <div class="text-white md:mt-10">
+            <img src="assets/media/icons/logo-claro-verde.svg" alt="" class="md:w-[150px] w-32 transition-all duration-300">
         </div>
         <button>
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#3A434D" class="bi bi-list" id="menu-icono" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#33FF99" class="bi bi-list" id="menu-icono" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-"/>
               </svg>
         </button>
@@ -47,13 +46,13 @@
     </div>
     <!-- 5 -->
     <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="5">
-        <div class="w-11/12 h-full relative flex justify-start items-center mt-10">
-            <div class="w-1/2 text-[#33FF99] mr-10">
+        <div class="w-11/12 md:h-full relative flex justify-start items-center md:mb-2 md:flex-row flex-col mt-10">
+            <div class="md:w-1/2 w-11/12 text-[#33FF99]">
                 <div class="text-left font-condell-regular">Tu audiencia te espera</div>
-                <div class="uppercase text-7xl font-din-medium text-[#33FF99]">Medios digitales</div>
-                <div class="font-condell-regular text-xl mt-10">Nos comprometemos a alinearnos con tu visión e implementarla<br>como guía para tu marca, así fortalecemos y expandimos tu alcance publicitario. Da un paso mas y únete a nuestra familia que se enfoca<br>en contenidos de valor, desarrollamos los materiales que necesitas<br>para reforzar a tu marca y a sus campañas publicitarias.</div>
+                <div class="uppercase md:text-7xl text-5xl font-din-medium text-[#33FF99]">Medios digitales</div>
+                <div class="font-condell-regular md:text-xl text-sm mt-10">Nos comprometemos a alinearnos con tu visión e implementarla<br>como guía para tu marca, así fortalecemos y expandimos tu alcance publicitario. Da un paso mas y únete a nuestra familia que se enfoca<br>en contenidos de valor, desarrollamos los materiales que necesitas<br>para reforzar a tu marca y a sus campañas publicitarias.</div>
             </div>
-            <div class="w-1/4">
+            <div class="md:w-1/4 w-40 md:mb-0 -mb-20 mt-8">
                 <div class="owl-carousel owl-theme" id="visuales-galery">
                     <img src="assets/media/img/visuales-1.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
                     <img src="assets/media/img/visuales-2.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
@@ -65,27 +64,27 @@
     </div>
     <!-- 4 -->
     <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="4">
-        <div class="w-11/12 h-full relative flex justify-start items-center mt-10">
-            <div class="w-1/2 text-[#33FF99]">
+        <div class="w-11/12 md:h-full relative flex justify-start items-center md:mb-2 md:flex-row flex-col mt-10">
+            <div class="md:w-1/2 w-11/12 text-[#33FF99]">
                 <div class="text-left font-condell-regular">Tu audiencia te espera</div>
-                <div class="uppercase text-7xl font-din-medium text-[#33FF99]">Comunicación digital</div>
-                <div class="font-condell-regular text-xl mt-10">Todos están listos para conocerte. Hoy tu marca se hará pública. Tú tienes el mejor producto, nuestra tarea es mostrarlo a tu audiencia.</div>
-                <div class="mt-5 font-condell-bold text-2xl">Web</div>
-                <ul class="font-condell-regular text-xl list-disc ml-10">
+                <div class="uppercase md:text-7xl text-5xl font-din-medium text-[#33FF99]">Comunicación digital</div>
+                <div class="font-condell-regular md:text-xl text-sm md:mt-10 mt-5">Todos están listos para conocerte. Hoy tu marca se hará pública. Tú tienes el mejor producto, nuestra tarea es mostrarlo a tu audiencia.</div>
+                <div class="mt-5 font-condell-bold md:text-2xl text-lg">Web</div>
+                <ul class="font-condell-regular md:text-xl text-sm list-disc ml-10">
                     <li>Creación y Mantenimiento</li>
                     <li>Configuración de dominio</li>
                     <li>Posicionamiento CEO SEM y Análisis</li>
                     <li>Experiencia de Usuario</li>
                 </ul>
-                <div class="mt-5 font-condell-bold text-2xl">RRSS</div>
-                <ul class="font-condell-regular text-xl list-disc ml-10">
+                <div class="mt-5 font-condell-bold md:text-2xl text-lg">RRSS</div>
+                <ul class="font-condell-regular md:text-xl text-sm list-disc ml-10">
                     <li>Análisis y Manejo de plataformas</li>
                     <li>Capacitación a administradores</li>
                     <li>Marketing digital</li>
                     <li>Diseño</li>
                 </ul>
             </div>
-            <div class="w-1/4">
+            <div class="md:w-1/4 w-40 md:mb-0 -mb-20 mt-8">
                 <div class="owl-carousel owl-theme" id="digital-galery">
                     <img src="assets/media/img/digital-1.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
                     <img src="assets/media/img/digital-2.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
@@ -100,13 +99,13 @@
     </div>
     <!-- 3 -->
     <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="3">
-        <div class="w-11/12 h-full relative flex justify-start items-center mt-2">
-            <div class="w-1/2 text-white">
+        <div class="w-11/12 md:h-full relative flex justify-start items-center md:mb-2 md:flex-row flex-col mt-2">
+            <div class="md:w-1/2 w-11/12 text-white">
                 <div class="text-left font-condell-regular">Crea y Comunica Valor</div>
-                <div class="uppercase text-7xl font-din-medium text-white">Marketing</div>
-                <div class="font-condell-regular text-xl mt-10">El estudiar al mercado por más de 20 años nos permite compartir nuestra experiencia e identificar las necesidades de nuevos clientes<br>y mercados. ¡Lo mejor para verte crecer!</div>
-                <div class="font-condell-regular text-xl mt-5">Estudiando el mercado por mas de 20 años, compartimos nuestra experiencia para identificar las necesidades de nuevos clientes<br>y mercados. ¡Lo mejor para verte crecer!</div>
-                <ul class="font-condell-regular text-xl mt-5 list-disc ml-10">
+                <div class="uppercase md:text-7xl text-5xl font-din-medium text-white">Marketing</div>
+                <div class="font-condell-regular md:text-xl text-sm mt-10">El estudiar al mercado por más de 20 años nos permite compartir nuestra experiencia e identificar las necesidades de nuevos clientes<br>y mercados. ¡Lo mejor para verte crecer!</div>
+                <div class="font-condell-regular md:text-xl text-sm mt-5">Estudiando el mercado por mas de 20 años, compartimos nuestra experiencia para identificar las necesidades de nuevos clientes<br>y mercados. ¡Lo mejor para verte crecer!</div>
+                <ul class="font-condell-regular md:text-xl text-sm mt-5 list-disc ml-10">
                     <li>Impacto directo al consumidor</li>
                     <li>Análisis de Marca</li>
                     <li>Marketing digital</li>
@@ -114,7 +113,7 @@
                     <li>Transcreation</li>
                 </ul>
             </div>
-            <div class="w-1/4">
+            <div class="md:w-1/4 w-40 md:mb-0 -mb-20 mt-8">
                 <div class="owl-carousel owl-theme" id="marketing-galery">
                     <img src="assets/media/img/marketing-1.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
                     <img src="assets/media/img/marketing-2.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
@@ -127,14 +126,14 @@
             </div>
         </div>
     </div>
-    <div class="row-span-1 fixed bottom-0 flex justify-center items-center w-screen h-screen text-white" id="2">
-        <div class="w-11/12 h-full relative flex justify-start items-center mb-2">
-            <div class="w-1/2">
+    <div class="row-span-1 fixed bottom-0 flex justify-center items-center w-screen h-screen text-white hidden" id="2">
+        <div class="w-11/12 md:h-full relative flex justify-start items-center md:mb-2 md:flex-row flex-col">
+            <div class="md:w-1/2 w-11/12">
                 <div class="text-left font-condell-regular">Crea o consolida tu marca</div>
-                <div class="uppercase text-7xl font-din-medium text-[#33FF99]">Branding</div>
-                <div class="font-condell-regular text-xl mt-10">Nuestro equipo multidisciplinario de expertos te acompaña y asesora paso a paso en el proceso de encontrar y revelar la identidad<br>de tu marca.</div>
-                <div class="font-condell-regular text-xl mt-5">Juntos construir enfocar la visión que da vida y enamora<br>a tus potenciales clientes.</div>
-                <ul class="font-condell-regular text-xl mt-5 list-disc ml-10">
+                <div class="uppercase md:text-7xl text-5xl font-din-medium text-[#33FF99]">Branding</div>
+                <div class="font-condell-regular md:text-xl text-sm mt-10">Nuestro equipo multidisciplinario de expertos te acompaña y asesora paso a paso en el proceso de encontrar y revelar la identidad<br>de tu marca.</div>
+                <div class="font-condell-regular md:text-xl text-sm mt-5">Juntos construir enfocar la visión que da vida y enamora<br>a tus potenciales clientes.</div>
+                <ul class="font-condell-regular md:text-xl text-sm mt-5 list-disc ml-10">
                     <li>Construcción de Marca</li>
                     <li>Asesoría para definir identidad </li>
                     <li>Identidad de marca </li>
@@ -142,7 +141,7 @@
                     <li>Taller de Engagement</li>
                 </ul>
             </div>
-            <div class="w-1/4">
+            <div class="md:w-1/4 w-40 md:mb-0 -mb-20 mt-8">
                 <div class="owl-carousel owl-theme" id="branding-galery">
                     <img src="assets/media/img/branding-1.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
                     <img src="assets/media/img/branding-2.png" alt="" class="w-1/4 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
@@ -156,14 +155,14 @@
         <div class="w-11/12 h-full relative flex justify-center items-center text-white">
             <div class="w-full">
                 <div class="text-left font-condell-regular">Nuestros Pilares</div>
-                <div class="uppercase text-7xl font-din-medium border-text"><span class="border-text-green">Branding</span> <span class="text-white">Marketing</span><br><span class="border-text-green">Comunicación digital</span> <span class="text-white">Medios Visuales</span></div>
+                <div class="uppercase md:text-7xl text-5xl font-din-medium border-text"><span class="border-text-green">Branding</span> <span class="text-white">Marketing</span><br><span class="border-text-green">Comunicación digital</span> <span class="text-white">Medios Visuales</span></div>
             </div>
-            <div class="absolute bottom-5 left-0 font-condell-regular text-xl">Nuestro equipo multidisciplinario de expertos te acompaña y asesora paso a paso en el proceso<br>de encontrar y revelar la identidad de tu marca.</div>
+            <div class="absolute md:bottom-5 bottom-32 left-0 font-condell-regular md:text-xl text-sm">Nuestro equipo multidisciplinario de expertos te acompaña y asesora paso a paso en el proceso<br>de encontrar y revelar la identidad de tu marca.</div>
         </div>
     </div>
 
 
-    <a href="mailto:hola@paprontoestarde.com" target="_blank" class="fixed bottom-0 right-10 text-white">
+    <a href="mailto:hola@paprontoestarde.com" target="_blank" class="fixed bottom-0 md:right-10 right-3 text-white">
         <img src="assets/media/icons/icono-email.svg" alt="" class="w-[170px]">
     </a>
     <script src="assets/main.min.js?asd=asd9s"></script>
