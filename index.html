@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pa' Pronto es tarde</title>
+    <link rel="stylesheet" href="assets/main.min.css">
+    <lint rel="shortcut icon" href="assets/media/icons/nave.svg" />
+</head>
+<body class="relative bg-gradient-to-t h-[8400px] from-[#33FF99] via-[#3A434D]/60 to-[#3A434D] grid grid-rows-3">
+    <div class="bg-[#3A434D] w-screen h-screen z-50 fixed top-0 flex justify-center items-center" style="opacity:1" id="loader">
+        <img src="assets/media/icons/icono-loading.svg" alt="" class="w-[200px] mb-10">
+    </div>
+
+    <!-- Moon -->
+    <div class="-z-50">
+        <img src="assets/media/icons/estrellas.svg" alt="" class="w-full">
+    </div>
+    <img src="assets/media/icons/moon.svg" alt="" class="absolute top-20 right-0 w-2/6">
+
+    <!-- Nave -->
+    <div class="fixed right-9 bottom-32 h-4/6 w-1/2">
+        <div class="h-full relative">
+            <img src="assets/media/icons/nave.svg" alt="" class="w-40 absolute right-20 transition-all duration-100 rotate-[16deg] drop-shadow-xl" style="top: 60%;" id="nave">
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="h-32 flex justify-between items-center px-14 fixed top-0 w-full z-40">
+        <div class="text-white mt-10">
+            <img src="assets/media/icons/logo-oscuro-verde.svg" alt="" class="w-[150px] transition-all duration-300" id="logo-dark">
+            <img src="assets/media/icons/logo-claro-verde.svg" alt="" class="w-[150px] transition-all duration-300"  id="logo-light">
+        </div>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#3A434D" class="bi bi-list" id="menu-icono" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-"/>
+              </svg>
+        </button>
+    </div>
+
+    <!-- 6 -->
+    <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="6">
+        <div class="w-10/12">
+            <div class="uppercase font-bold text-8xl font-din text-[#33FF99]">Sección 6</div>
+        </div>
+    </div>
+    <!-- 5 -->
+    <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="5">
+        <div class="w-10/12">
+            <div class="uppercase font-bold text-8xl font-din text-[#33FF99]">Sección 5</div>
+        </div>
+    </div>
+    <!-- 4 -->
+    <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="4">
+        <div class="w-10/12">
+            <div class="uppercase font-bold text-8xl font-din text-[#33FF99]">Sección 4</div>
+        </div>
+    </div>
+    <!-- 3 -->
+    <div class="row-span-1 fixed bottom-0 hidden flex justify-center items-center w-screen h-screen" id="3">
+        <div class="w-11/12 h-full relative flex justify-start items-center">
+            <div class="w-1/2 text-white">
+                <div class="text-left font-condell-regular">Crea y Comunica Valor</div>
+                <div class="uppercase text-7xl font-din-medium text-white">Marketing</div>
+                <div class="font-condell-regular text-xl mt-10">El estudiar al mercado por más de 20 años nos permite compartir nuestra experiencia e identificar las necesidades de nuevos clientes y mercados. ¡Lo mejor para verte crecer!</div>
+                <div class="font-condell-regular text-xl mt-5">Estudiando el mercado por mas de 20 años, compartimos nuestra experiencia para identificar las necesidades de nuevos clientes y mercados. ¡Lo mejor para verte crecer!</div>
+                <ul class="font-condell-regular text-xl mt-5 list-disc ml-10">
+                    <li>Impacto directo al consumidor</li>
+                    <li>Análisis de Marca</li>
+                    <li>Marketing digital</li>
+                    <li>Marketing Shopper</li>
+                    <li>Transcreation</li>
+                </ul>
+            </div>
+            <div class="w-1/2">
+                <img src="assets/media/img/marketing.png" alt="" class="w-1/2 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
+            </div>
+        </div>
+    </div>
+    <div class="row-span-1 fixed bottom-0 flex justify-center items-center w-screen h-screen text-white" id="2">
+        <div class="w-11/12 h-full relative flex justify-start items-center">
+            <div class="w-1/2">
+                <div class="text-left font-condell-regular">Crea o consolida tu marca</div>
+                <div class="uppercase text-7xl font-din-medium text-[#3A434D]">Branding</div>
+                <div class="font-condell-regular text-xl mt-10">Nuestro equipo multidisciplinario de expertos te acompaña y asesora paso a paso en el proceso de encontrar y revelar la identidad<br>de tu marca.</div>
+                <div class="font-condell-regular text-xl mt-5">Juntos construir enfocar la visión que da vida y enamora a tus potenciales clientes.</div>
+                <ul class="font-condell-regular text-xl mt-5 list-disc ml-10">
+                    <li>Construcción de Marca</li>
+                    <li>Asesoría para definir identidad </li>
+                    <li>Identidad de marca </li>
+                    <li>Workshops </li>
+                    <li>Taller de Engagement</li>
+                </ul>
+            </div>
+            <div class="w-1/2">
+                <img src="assets/media/img/branding.png" alt="" class="w-1/2 border-t-[12px] border-r-[12px] border-l-[12px] border-b-[55px] border-white shadow-2xl">
+            </div>
+        </div>
+    </div>
+    <!-- 1 -->
+    <div class="row-span-1 fixed bottom-0 flex justify-center items-center w-screen h-screen" id="1">
+        <div class="w-11/12 h-full relative flex justify-center items-center">
+            <div class="w-full">
+                <div class="text-left font-condell-regular">Nuestros Pilares</div>
+                <div class="uppercase text-7xl font-din-medium border-text"><span class="border-text-gray">Branding</span> <span class="text-white">Marketing</span><br><span class="border-text-gray">Comunicación digital</span> <span class="text-white">Medios Visuales</span></div>
+            </div>
+            <div class="absolute bottom-5 left-0 font-condell-regular text-xl">Nuestro equipo multidisciplinario de expertos te acompaña y asesora paso a paso en el proceso<br>de encontrar y revelar la identidad de tu marca.</div>
+        </div>
+    </div>
+
+
+    <a href="mailto:hola@paprontoestarde.com" target="_blank" class="fixed bottom-0 right-10 text-white">
+        <img src="assets/media/icons/icono-email.svg" alt="" class="w-[170px]">
+    </a>
+    <script src="assets/main.min.js?asd=asassds"></script>
+</body>
+</html>
