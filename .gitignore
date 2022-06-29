@@ -1,0 +1,8 @@
+/dist
+/src
+/node_modules
+gulpfile.js
+package-lock.json
+package.json
+tailwind.config.js
+.htaccess
